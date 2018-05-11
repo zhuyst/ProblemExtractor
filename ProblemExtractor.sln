@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemExtractor", "ProblemExtractor\ProblemExtractor.csproj", "{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973AED05-7CE3-4F57-AE55-C484C4DF07E1}
+	EndGlobalSection
+EndGlobal
