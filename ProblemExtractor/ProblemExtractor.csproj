@@ -61,11 +61,20 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Problem.cs" />
+    <Compile Include="ProblemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemForm.Designer.cs">
+      <DependentUpon>ProblemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemForm.resx">
+      <DependentUpon>ProblemForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -89,6 +99,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\困难.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\中等.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\简单.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProblemExtractor.Model\ProblemExtractor.Model.csproj">
+      <Project>{869a9801-64fe-4224-9fe6-b3f88222b5d2}</Project>
+      <Name>ProblemExtractor.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WindowsFormsControlLibrary\WindowsFormsControlLibrary.csproj">
+      <Project>{52fd2c33-3a2e-43dd-9f32-4850a661a2e1}</Project>
+      <Name>WindowsFormsControlLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

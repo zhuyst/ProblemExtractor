@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemExtractor", "ProblemExtractor\ProblemExtractor.csproj", "{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlLibrary", "WindowsFormsControlLibrary\WindowsFormsControlLibrary.csproj", "{52FD2C33-3A2E-43DD-9F32-4850A661A2E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemExtractor.Model", "ProblemExtractor.Model\ProblemExtractor.Model.csproj", "{869A9801-64FE-4224-9FE6-B3F88222B5D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +19,19 @@ Global
 		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D81ED87-71F9-4C55-8E8B-91BF6A51E822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FD2C33-3A2E-43DD-9F32-4850A661A2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FD2C33-3A2E-43DD-9F32-4850A661A2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FD2C33-3A2E-43DD-9F32-4850A661A2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FD2C33-3A2E-43DD-9F32-4850A661A2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869A9801-64FE-4224-9FE6-B3F88222B5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869A9801-64FE-4224-9FE6-B3F88222B5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869A9801-64FE-4224-9FE6-B3F88222B5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869A9801-64FE-4224-9FE6-B3F88222B5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {973AED05-7CE3-4F57-AE55-C484C4DF07E1}
+		SolutionGuid = {40228659-68FD-4903-90EC-3DBC6A53E591}
 	EndGlobalSection
 EndGlobal
