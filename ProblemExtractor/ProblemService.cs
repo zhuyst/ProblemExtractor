@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using ExcelDataReader;
 using ProblemExtractor.Model;
@@ -13,13 +12,13 @@ namespace ProblemExtractor
 
         private const string ExcelName = "test.xlsx";
 
-        private List<Problem> _problems;
+        private readonly List<Problem> _problems;
 
         private readonly Random _random;
 
         public static ProblemService GetInstance()
         {
-            return new ProblemService();
+            return _instance ?? (_instance = new ProblemService());
         }
 
         private ProblemService()
