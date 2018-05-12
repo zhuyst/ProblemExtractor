@@ -73,7 +73,7 @@
             this.dSkinPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dSkinPictureBox1.TabIndex = 1;
             this.dSkinPictureBox1.Text = "dSkinPictureBox1";
-            this.dSkinPictureBox1.Click += new System.EventHandler(this.dSkinNewPanel1_Click);
+            this.dSkinPictureBox1.Click += new System.EventHandler(this.EasyMode_Click);
             // 
             // dSkinLabel2
             // 
@@ -90,7 +90,7 @@
             this.dSkinLabel2.Text = "简单（一题）";
             this.dSkinLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dSkinLabel2.TextEffect = DSkin.DirectUI.TextEffects.Path;
-            this.dSkinLabel2.Click += new System.EventHandler(this.dSkinNewPanel1_Click);
+            this.dSkinLabel2.Click += new System.EventHandler(this.EasyMode_Click);
             // 
             // dSkinNewPanel1
             // 
@@ -104,7 +104,7 @@
             this.dSkinNewPanel1.Size = new System.Drawing.Size(225, 268);
             this.dSkinNewPanel1.TabIndex = 3;
             this.dSkinNewPanel1.Text = "dSkinNewPanel1";
-            this.dSkinNewPanel1.Click += new System.EventHandler(this.dSkinNewPanel1_Click);
+            this.dSkinNewPanel1.Click += new System.EventHandler(this.EasyMode_Click);
             // 
             // dSkinNewPanel2
             // 
@@ -118,7 +118,7 @@
             this.dSkinNewPanel2.Size = new System.Drawing.Size(225, 268);
             this.dSkinNewPanel2.TabIndex = 4;
             this.dSkinNewPanel2.Text = "dSkinNewPanel2";
-            this.dSkinNewPanel2.Click += new System.EventHandler(this.dSkinNewPanel2_Click);
+            this.dSkinNewPanel2.Click += new System.EventHandler(this.NormalMode_Click);
             // 
             // dSkinLabel3
             // 
@@ -135,7 +135,7 @@
             this.dSkinLabel3.Text = "中等（三题）";
             this.dSkinLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dSkinLabel3.TextEffect = DSkin.DirectUI.TextEffects.Path;
-            this.dSkinLabel3.Click += new System.EventHandler(this.dSkinNewPanel2_Click);
+            this.dSkinLabel3.Click += new System.EventHandler(this.NormalMode_Click);
             // 
             // dSkinPictureBox2
             // 
@@ -150,7 +150,7 @@
             this.dSkinPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dSkinPictureBox2.TabIndex = 1;
             this.dSkinPictureBox2.Text = "dSkinPictureBox2";
-            this.dSkinPictureBox2.Click += new System.EventHandler(this.dSkinNewPanel2_Click);
+            this.dSkinPictureBox2.Click += new System.EventHandler(this.NormalMode_Click);
             // 
             // dSkinNewPanel3
             // 
@@ -164,7 +164,7 @@
             this.dSkinNewPanel3.Size = new System.Drawing.Size(225, 268);
             this.dSkinNewPanel3.TabIndex = 5;
             this.dSkinNewPanel3.Text = "dSkinNewPanel3";
-            this.dSkinNewPanel3.Click += new System.EventHandler(this.dSkinNewPanel3_Click);
+            this.dSkinNewPanel3.Click += new System.EventHandler(this.HardMode_Click);
             // 
             // dSkinLabel4
             // 
@@ -181,7 +181,7 @@
             this.dSkinLabel4.Text = "困难（五题）";
             this.dSkinLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dSkinLabel4.TextEffect = DSkin.DirectUI.TextEffects.Path;
-            this.dSkinLabel4.Click += new System.EventHandler(this.dSkinNewPanel3_Click);
+            this.dSkinLabel4.Click += new System.EventHandler(this.HardMode_Click);
             // 
             // dSkinPictureBox3
             // 
@@ -196,7 +196,7 @@
             this.dSkinPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dSkinPictureBox3.TabIndex = 1;
             this.dSkinPictureBox3.Text = "dSkinPictureBox3";
-            this.dSkinPictureBox3.Click += new System.EventHandler(this.dSkinNewPanel3_Click);
+            this.dSkinPictureBox3.Click += new System.EventHandler(this.HardMode_Click);
             // 
             // MainForm
             // 
