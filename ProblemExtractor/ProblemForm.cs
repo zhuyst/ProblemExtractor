@@ -27,6 +27,7 @@ namespace ProblemExtractor
 
         private void SetProblemList(IEnumerable<Problem> problems)
         {
+            ProblemListPanel.Controls.Clear();
             foreach (var problem in problems)
             {
                 var control = new ProblemListItem(problem);

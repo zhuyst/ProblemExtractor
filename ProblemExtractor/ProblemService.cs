@@ -36,11 +36,16 @@ namespace ProblemExtractor
             {
                 using (var reader = ExcelReaderFactory.CreateReader(stream))
                 {
+                    var i = 1;
                     do
                     {
                         while (reader.Read())
                         {
-                            var problem = new Problem();
+                            var problem = new Problem
+                            {
+                                Id = i++,
+                                Content = reader.GetString(0)
+                            };
                             _problems.Add(problem);
                         }
                     } while (reader.NextResult());
