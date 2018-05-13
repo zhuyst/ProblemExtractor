@@ -125,6 +125,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProblemExtractor.Properties.Resources.背景;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CaptionShowMode = DSkin.TextShowModes.None;
             this.ClientSize = new System.Drawing.Size(1135, 638);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.ReloadButton);
@@ -137,7 +138,7 @@
             this.Name = "ProblemForm";
             this.Opacity = 0.98D;
             this.Radius = 25;
-            this.Text = "";
+            this.Text = "抽题";
             this.Load += new System.EventHandler(this.ProblemForm_Load);
             this.ResumeLayout(false);
 

@@ -21,6 +21,19 @@ namespace ProblemExtractor
 
         private void ProblemForm_Load(object sender, EventArgs e)
         {
+            switch (_problemNum)
+            {
+                case 1:
+                    Text = @"简单 - 动漫灯谜";
+                    break;
+                case 3:
+                    Text = @"普通 - 动漫灯谜";
+                    break;
+                case 5:
+                    Text = @"困难 - 动漫灯谜";
+                    break;
+            }
+
             var list = _problemService.ExtractProblems(_problemNum);
             SetProblemList(list);
         }

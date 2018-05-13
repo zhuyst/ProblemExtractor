@@ -204,6 +204,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProblemExtractor.Properties.Resources.背景;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CaptionShowMode = DSkin.TextShowModes.None;
             this.ClientSize = new System.Drawing.Size(1135, 638);
             this.Controls.Add(this.dSkinNewPanel3);
             this.Controls.Add(this.dSkinNewPanel2);
@@ -216,7 +217,7 @@
             this.Name = "MainForm";
             this.Opacity = 0.98D;
             this.Radius = 25;
-            this.Text = "";
+            this.Text = "动漫灯谜";
             this.dSkinNewPanel1.ResumeLayout(false);
             this.dSkinNewPanel1.PerformLayout();
             this.dSkinNewPanel2.ResumeLayout(false);
